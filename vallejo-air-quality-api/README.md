@@ -9,7 +9,7 @@ PURPLEAIR_API_KEY=your_api_key_here
 
 python run.py
 
-Real sensor data: http://localhost:5000/sensors
+Real sensor data: http://localhost:5001/api/sensors
 
-Mock sensor data: http://localhost:5000/mock-sensors
+Mock sensor data: http://localhost:5001/api/mock-sensors
 
