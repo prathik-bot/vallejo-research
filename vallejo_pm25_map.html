@@ -1,0 +1,1393 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4f9ffc8b2587e74fc0e6cccab69bad30 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4f9ffc8b2587e74fc0e6cccab69bad30" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4f9ffc8b2587e74fc0e6cccab69bad30 = L.map(
+                "map_4f9ffc8b2587e74fc0e6cccab69bad30",
+                {
+                    center: [38.1041, -122.256],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_61f8ede2a64c7760834ba6d9b49c6c9e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_61f8ede2a64c7760834ba6d9b49c6c9e.addTo(map_4f9ffc8b2587e74fc0e6cccab69bad30);
+        
+    
+            var marker_ec37c959e505b3495f15ed51958f3b09 = L.marker(
+                [38.066784, -122.220024],
+                {
+}
+            ).addTo(map_4f9ffc8b2587e74fc0e6cccab69bad30);
+        
+    
+            var icon_7d0ec3f4adccaa992d429bbe728784e7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9eb8bf1f971c2d7895a98bb1cd28c46e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_87c29c2e359603cad307ea5505d7a64d = $(`<div id="html_87c29c2e359603cad307ea5505d7a64d" style="width: 100.0%; height: 100.0%;"><b>Glen Cove Ridge</b><br>PM2.5: 2.4 µg/m³</div>`)[0];
+                popup_9eb8bf1f971c2d7895a98bb1cd28c46e.setContent(html_87c29c2e359603cad307ea5505d7a64d);
+            
+        
+
+        marker_ec37c959e505b3495f15ed51958f3b09.bindPopup(popup_9eb8bf1f971c2d7895a98bb1cd28c46e)
+        ;
+
+        
+    
+    
+                marker_ec37c959e505b3495f15ed51958f3b09.setIcon(icon_7d0ec3f4adccaa992d429bbe728784e7);
+            
+    
+            var marker_af8249f4de2d057e09ce85cc9af1fab7 = L.marker(
+                [38.07335, -122.2397],
+                {
+}
+            ).addTo(map_4f9ffc8b2587e74fc0e6cccab69bad30);
+        
+    
+            var icon_f9c91585640f6a3a723c0ab8613d2bd6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7b30da0ea3e108de5107a33353eab94b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3e59408c5e8b2bfb4794a88698982a64 = $(`<div id="html_3e59408c5e8b2bfb4794a88698982a64" style="width: 100.0%; height: 100.0%;"><b>Sandy Beach</b><br>PM2.5: 0.0 µg/m³</div>`)[0];
+                popup_7b30da0ea3e108de5107a33353eab94b.setContent(html_3e59408c5e8b2bfb4794a88698982a64);
+            
+        
+
+        marker_af8249f4de2d057e09ce85cc9af1fab7.bindPopup(popup_7b30da0ea3e108de5107a33353eab94b)
+        ;
+
+        
+    
+    
+                marker_af8249f4de2d057e09ce85cc9af1fab7.setIcon(icon_f9c91585640f6a3a723c0ab8613d2bd6);
+            
+    
+            var marker_d347750cbfa27bdf29e8597a9736a60b = L.marker(
+                [38.074215, -122.200226],
+                {
+}
+            ).addTo(map_4f9ffc8b2587e74fc0e6cccab69bad30);
+        
+    
+            var icon_a8afe261617c2899962afd1e6bb15232 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7a63649ff28069acb51d1fab5951587a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab4a442005f88b9806033b8d51014ac6 = $(`<div id="html_ab4a442005f88b9806033b8d51014ac6" style="width: 100.0%; height: 100.0%;"><b>Topsail</b><br>PM2.5: 3.1 µg/m³</div>`)[0];
+                popup_7a63649ff28069acb51d1fab5951587a.setContent(html_ab4a442005f88b9806033b8d51014ac6);
+            
+        
+
+        marker_d347750cbfa27bdf29e8597a9736a60b.bindPopup(popup_7a63649ff28069acb51d1fab5951587a)
+        ;
+
+        
+    
+    
+                marker_d347750cbfa27bdf29e8597a9736a60b.setIcon(icon_a8afe261617c2899962afd1e6bb15232);
+            
+    
+            var marker_ee804d96faaf7c0759c83b87c8ccf053 = L.marker(
+                [38.092815, -122.25122],
+                {
+}
+            ).addTo(map_4f9ffc8b2587e74fc0e6cccab69bad30);
+        
+    
+            var icon_720fd66890cd4b0f4039191dd37f0ba2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f0a9b8a9e70f96869e8f5299e8804030 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2f1364a46b7e9eaa9ff25f0d733c4702 = $(`<div id="html_2f1364a46b7e9eaa9ff25f0d733c4702" style="width: 100.0%; height: 100.0%;"><b>Vallejo Flood and Wastewater District</b><br>PM2.5: 1.9 µg/m³</div>`)[0];
+                popup_f0a9b8a9e70f96869e8f5299e8804030.setContent(html_2f1364a46b7e9eaa9ff25f0d733c4702);
+            
+        
+
+        marker_ee804d96faaf7c0759c83b87c8ccf053.bindPopup(popup_f0a9b8a9e70f96869e8f5299e8804030)
+        ;
+
+        
+    
+    
+                marker_ee804d96faaf7c0759c83b87c8ccf053.setIcon(icon_720fd66890cd4b0f4039191dd37f0ba2);
+            
+    
+            var marker_55fc8f7dcc51d424c5e2d42231ec7cd1 = L.marker(
+                [38.090347, -122.238815],
+                {
+}
+            ).addTo(map_4f9ffc8b2587e74fc0e6cccab69bad30);
+        
+    
+            var icon_7472ba19a1c0b7692eb7b2d10d6b03c4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_11d8433a2baa2c5f2a584d0ecfe0e262 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_10c9db8834137e22b916603fefe43e7d = $(`<div id="html_10c9db8834137e22b916603fefe43e7d" style="width: 100.0%; height: 100.0%;"><b>1300 Block Lemon</b><br>PM2.5: 2.8 µg/m³</div>`)[0];
+                popup_11d8433a2baa2c5f2a584d0ecfe0e262.setContent(html_10c9db8834137e22b916603fefe43e7d);
+            
+        
+
+        marker_55fc8f7dcc51d424c5e2d42231ec7cd1.bindPopup(popup_11d8433a2baa2c5f2a584d0ecfe0e262)
+        ;
+
+        
+    
+    
+                marker_55fc8f7dcc51d424c5e2d42231ec7cd1.setIcon(icon_7472ba19a1c0b7692eb7b2d10d6b03c4);
+            
+    
+            var marker_73da47d275d409dd6b3149e4a67ed126 = L.marker(
+                [38.106747, -122.22689],
+                {
+}
+            ).addTo(map_4f9ffc8b2587e74fc0e6cccab69bad30);
+        
+    
+            var icon_3c154d9e7f0afef9eea27043bf3a056a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4cf5368ec406d5545fbb75d2c5f72131 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c07698b59daa85778ac262a4eeb750e3 = $(`<div id="html_c07698b59daa85778ac262a4eeb750e3" style="width: 100.0%; height: 100.0%;"><b>Lassen St &amp; Springs Rd Vallejo</b><br>PM2.5: 2.9 µg/m³</div>`)[0];
+                popup_4cf5368ec406d5545fbb75d2c5f72131.setContent(html_c07698b59daa85778ac262a4eeb750e3);
+            
+        
+
+        marker_73da47d275d409dd6b3149e4a67ed126.bindPopup(popup_4cf5368ec406d5545fbb75d2c5f72131)
+        ;
+
+        
+    
+    
+                marker_73da47d275d409dd6b3149e4a67ed126.setIcon(icon_3c154d9e7f0afef9eea27043bf3a056a);
+            
+    
+            var marker_b3e4e9586d1f6a5550b103bd77062454 = L.marker(
+                [38.12576, -122.266136],
+                {
+}
+            ).addTo(map_4f9ffc8b2587e74fc0e6cccab69bad30);
+        
+    
+            var icon_6b2523ae73fe8c0b8d0ac49ee40e14f4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d6af00d72a6174666e57b1fe06f4ce39 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_af39f4d2258e717ae17e676e00eeeebb = $(`<div id="html_af39f4d2258e717ae17e676e00eeeebb" style="width: 100.0%; height: 100.0%;"><b>Federal Terrace,Vallejo Flood and Wastewater - KCAVALLE33</b><br>PM2.5: 2.4 µg/m³</div>`)[0];
+                popup_d6af00d72a6174666e57b1fe06f4ce39.setContent(html_af39f4d2258e717ae17e676e00eeeebb);
+            
+        
+
+        marker_b3e4e9586d1f6a5550b103bd77062454.bindPopup(popup_d6af00d72a6174666e57b1fe06f4ce39)
+        ;
+
+        
+    
+    
+                marker_b3e4e9586d1f6a5550b103bd77062454.setIcon(icon_6b2523ae73fe8c0b8d0ac49ee40e14f4);
+            
+    
+            var marker_b5578d805b9fdf43d782d53b682a670d = L.marker(
+                [38.08507, -122.239426],
+                {
+}
+            ).addTo(map_4f9ffc8b2587e74fc0e6cccab69bad30);
+        
+    
+            var icon_b69bfc601ce749be5bde61b63fddf3e2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_226a2735d2afdb6aead4050b634c7f96 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c74e1e09d3c3c1f3ac41465a031d2ddc = $(`<div id="html_c74e1e09d3c3c1f3ac41465a031d2ddc" style="width: 100.0%; height: 100.0%;"><b>Grant St. Vallejo</b><br>PM2.5: 2.4 µg/m³</div>`)[0];
+                popup_226a2735d2afdb6aead4050b634c7f96.setContent(html_c74e1e09d3c3c1f3ac41465a031d2ddc);
+            
+        
+
+        marker_b5578d805b9fdf43d782d53b682a670d.bindPopup(popup_226a2735d2afdb6aead4050b634c7f96)
+        ;
+
+        
+    
+    
+                marker_b5578d805b9fdf43d782d53b682a670d.setIcon(icon_b69bfc601ce749be5bde61b63fddf3e2);
+            
+    
+            var marker_ecc9425c2271583951b16c5d11875613 = L.marker(
+                [38.13591, -122.25269],
+                {
+}
+            ).addTo(map_4f9ffc8b2587e74fc0e6cccab69bad30);
+        
+    
+            var icon_25e588a638c22b426652762606487660 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1849e0ee1414b01e01d06fd0c42e51ce = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f894e4f9d7e2049807a8ad0d7ac63598 = $(`<div id="html_f894e4f9d7e2049807a8ad0d7ac63598" style="width: 100.0%; height: 100.0%;"><b>Powell Bros. Feed &amp; Pet Supply, Inc.</b><br>PM2.5: 2.2 µg/m³</div>`)[0];
+                popup_1849e0ee1414b01e01d06fd0c42e51ce.setContent(html_f894e4f9d7e2049807a8ad0d7ac63598);
+            
+        
+
+        marker_ecc9425c2271583951b16c5d11875613.bindPopup(popup_1849e0ee1414b01e01d06fd0c42e51ce)
+        ;
+
+        
+    
+    
+                marker_ecc9425c2271583951b16c5d11875613.setIcon(icon_25e588a638c22b426652762606487660);
+            
+    
+            var marker_b73e993200ddd79aab1273c8a3b004e5 = L.marker(
+                [38.068447, -122.20007],
+                {
+}
+            ).addTo(map_4f9ffc8b2587e74fc0e6cccab69bad30);
+        
+    
+            var icon_109bd59fd23c0fc3a9a6389f2ccb1b8b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_42e91437ef061b66c331875d55d5e5c2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3edeb29c287396d60cc5c2c114ace0a6 = $(`<div id="html_3edeb29c287396d60cc5c2c114ace0a6" style="width: 100.0%; height: 100.0%;"><b>Windsurfer Vallejo</b><br>PM2.5: 3.2 µg/m³</div>`)[0];
+                popup_42e91437ef061b66c331875d55d5e5c2.setContent(html_3edeb29c287396d60cc5c2c114ace0a6);
+            
+        
+
+        marker_b73e993200ddd79aab1273c8a3b004e5.bindPopup(popup_42e91437ef061b66c331875d55d5e5c2)
+        ;
+
+        
+    
+    
+                marker_b73e993200ddd79aab1273c8a3b004e5.setIcon(icon_109bd59fd23c0fc3a9a6389f2ccb1b8b);
+            
+    
+            var marker_3f51b31a0e9d8d479129f9816a1a6bca = L.marker(
+                [38.0805, -122.226],
+                {
+}
+            ).addTo(map_4f9ffc8b2587e74fc0e6cccab69bad30);
+        
+    
+            var icon_094cb1dd6996a6574b7365b97364bd53 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_828475ad2c0cc26f4ab726a24a83dbb3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8377ed4aca557c75b787c44d7fa9b8ef = $(`<div id="html_8377ed4aca557c75b787c44d7fa9b8ef" style="width: 100.0%; height: 100.0%;"><b>La Jolla Street</b><br>PM2.5: 1.9 µg/m³</div>`)[0];
+                popup_828475ad2c0cc26f4ab726a24a83dbb3.setContent(html_8377ed4aca557c75b787c44d7fa9b8ef);
+            
+        
+
+        marker_3f51b31a0e9d8d479129f9816a1a6bca.bindPopup(popup_828475ad2c0cc26f4ab726a24a83dbb3)
+        ;
+
+        
+    
+    
+                marker_3f51b31a0e9d8d479129f9816a1a6bca.setIcon(icon_094cb1dd6996a6574b7365b97364bd53);
+            
+    
+            var marker_ee91eb00b168e09c43289e1d60ba0945 = L.marker(
+                [38.085487, -122.23593],
+                {
+}
+            ).addTo(map_4f9ffc8b2587e74fc0e6cccab69bad30);
+        
+    
+            var icon_f6d2360ad5ef1894728da5d8674baa8e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5eb865a49122ddcf6bf38678277a9661 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e71ede1be95a12cbe21771674950870c = $(`<div id="html_e71ede1be95a12cbe21771674950870c" style="width: 100.0%; height: 100.0%;"><b>Emmanuel Temple, 6th St. Vallejo</b><br>PM2.5: 2.8 µg/m³</div>`)[0];
+                popup_5eb865a49122ddcf6bf38678277a9661.setContent(html_e71ede1be95a12cbe21771674950870c);
+            
+        
+
+        marker_ee91eb00b168e09c43289e1d60ba0945.bindPopup(popup_5eb865a49122ddcf6bf38678277a9661)
+        ;
+
+        
+    
+    
+                marker_ee91eb00b168e09c43289e1d60ba0945.setIcon(icon_f6d2360ad5ef1894728da5d8674baa8e);
+            
+    
+            var marker_a382d5a4746794f90d71b0e435a29cd8 = L.marker(
+                [38.112885, -122.234085],
+                {
+}
+            ).addTo(map_4f9ffc8b2587e74fc0e6cccab69bad30);
+        
+    
+            var icon_fdbb8a85a32b3286e239ebefe4a92014 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b3f4fde2ba1f39f73b00876eddfa6bbc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ceb77b36bc80ecda6e12361f46f43b90 = $(`<div id="html_ceb77b36bc80ecda6e12361f46f43b90" style="width: 100.0%; height: 100.0%;"><b>Nebraska st. Vallejo</b><br>PM2.5: 1.8 µg/m³</div>`)[0];
+                popup_b3f4fde2ba1f39f73b00876eddfa6bbc.setContent(html_ceb77b36bc80ecda6e12361f46f43b90);
+            
+        
+
+        marker_a382d5a4746794f90d71b0e435a29cd8.bindPopup(popup_b3f4fde2ba1f39f73b00876eddfa6bbc)
+        ;
+
+        
+    
+    
+                marker_a382d5a4746794f90d71b0e435a29cd8.setIcon(icon_fdbb8a85a32b3286e239ebefe4a92014);
+            
+    
+            var marker_ee5f6c1d8a212b739784a4323af02ef0 = L.marker(
+                [38.096992, -122.23946],
+                {
+}
+            ).addTo(map_4f9ffc8b2587e74fc0e6cccab69bad30);
+        
+    
+            var icon_054b41a33c95d0b6094061990d3d5065 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7f5514cf6ce891917099d4492ee239c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a805a204e35c5667c6823737bb89e46c = $(`<div id="html_a805a204e35c5667c6823737bb89e46c" style="width: 100.0%; height: 100.0%;"><b>Benicia Road Vallejo</b><br>PM2.5: 2.7 µg/m³</div>`)[0];
+                popup_7f5514cf6ce891917099d4492ee239c3.setContent(html_a805a204e35c5667c6823737bb89e46c);
+            
+        
+
+        marker_ee5f6c1d8a212b739784a4323af02ef0.bindPopup(popup_7f5514cf6ce891917099d4492ee239c3)
+        ;
+
+        
+    
+    
+                marker_ee5f6c1d8a212b739784a4323af02ef0.setIcon(icon_054b41a33c95d0b6094061990d3d5065);
+            
+    
+            var marker_3efacdfcf2f76f77a12f4614882c7e0f = L.marker(
+                [38.114445, -122.241264],
+                {
+}
+            ).addTo(map_4f9ffc8b2587e74fc0e6cccab69bad30);
+        
+    
+            var icon_5a45cffef5b2d4bd233171f807184556 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_daebc81840f86f2c1257476f9bd81fa1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2bc775521cfd42cc1a5418f18324affc = $(`<div id="html_2bc775521cfd42cc1a5418f18324affc" style="width: 100.0%; height: 100.0%;"><b>BellaVista Vallejo</b><br>PM2.5: 2.9 µg/m³</div>`)[0];
+                popup_daebc81840f86f2c1257476f9bd81fa1.setContent(html_2bc775521cfd42cc1a5418f18324affc);
+            
+        
+
+        marker_3efacdfcf2f76f77a12f4614882c7e0f.bindPopup(popup_daebc81840f86f2c1257476f9bd81fa1)
+        ;
+
+        
+    
+    
+                marker_3efacdfcf2f76f77a12f4614882c7e0f.setIcon(icon_5a45cffef5b2d4bd233171f807184556);
+            
+    
+            var marker_aad23fdd2f53b9c4e9e56ebba341a97d = L.marker(
+                [38.118855, -122.22601],
+                {
+}
+            ).addTo(map_4f9ffc8b2587e74fc0e6cccab69bad30);
+        
+    
+            var icon_39f4af766abaae723cb5f6832e298442 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_59e2c2e025bc47f48891e5b78c9d118f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_38b4522b8300e1b67565e7b8fe2ee752 = $(`<div id="html_38b4522b8300e1b67565e7b8fe2ee752" style="width: 100.0%; height: 100.0%;"><b>Skyline</b><br>PM2.5: 2.5 µg/m³</div>`)[0];
+                popup_59e2c2e025bc47f48891e5b78c9d118f.setContent(html_38b4522b8300e1b67565e7b8fe2ee752);
+            
+        
+
+        marker_aad23fdd2f53b9c4e9e56ebba341a97d.bindPopup(popup_59e2c2e025bc47f48891e5b78c9d118f)
+        ;
+
+        
+    
+    
+                marker_aad23fdd2f53b9c4e9e56ebba341a97d.setIcon(icon_39f4af766abaae723cb5f6832e298442);
+            
+    
+            var marker_f93c2cd5bd02f5e6a8591d5595c5cf8c = L.marker(
+                [38.082848, -122.203735],
+                {
+}
+            ).addTo(map_4f9ffc8b2587e74fc0e6cccab69bad30);
+        
+    
+            var icon_8b3dec9d5be4513ad6cae601e3399745 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_af8ce119e56e9e629c7ad01c0332ccae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c591c6f9df0d97dc3a9b9ec8985517ec = $(`<div id="html_c591c6f9df0d97dc3a9b9ec8985517ec" style="width: 100.0%; height: 100.0%;"><b>Glen Cove Hills</b><br>PM2.5: 4.6 µg/m³</div>`)[0];
+                popup_af8ce119e56e9e629c7ad01c0332ccae.setContent(html_c591c6f9df0d97dc3a9b9ec8985517ec);
+            
+        
+
+        marker_f93c2cd5bd02f5e6a8591d5595c5cf8c.bindPopup(popup_af8ce119e56e9e629c7ad01c0332ccae)
+        ;
+
+        
+    
+    
+                marker_f93c2cd5bd02f5e6a8591d5595c5cf8c.setIcon(icon_8b3dec9d5be4513ad6cae601e3399745);
+            
+    
+            var marker_874459e73b926b3178bc3018e00bd2ca = L.marker(
+                [38.106724, -122.260925],
+                {
+}
+            ).addTo(map_4f9ffc8b2587e74fc0e6cccab69bad30);
+        
+    
+            var icon_ade3e4f05f9769905a786103b9e55fd1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_968f2b547365d253514f5c700bd13e5c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4f5bd085563f95bdecfbe34507eee1cb = $(`<div id="html_4f5bd085563f95bdecfbe34507eee1cb" style="width: 100.0%; height: 100.0%;"><b>outdoor yard</b><br>PM2.5: 0.0 µg/m³</div>`)[0];
+                popup_968f2b547365d253514f5c700bd13e5c.setContent(html_4f5bd085563f95bdecfbe34507eee1cb);
+            
+        
+
+        marker_874459e73b926b3178bc3018e00bd2ca.bindPopup(popup_968f2b547365d253514f5c700bd13e5c)
+        ;
+
+        
+    
+    
+                marker_874459e73b926b3178bc3018e00bd2ca.setIcon(icon_ade3e4f05f9769905a786103b9e55fd1);
+            
+    
+            var marker_4c5ea662cdb15e6d1446f1ec29ffdc17 = L.marker(
+                [38.051014, -122.22627],
+                {
+}
+            ).addTo(map_4f9ffc8b2587e74fc0e6cccab69bad30);
+        
+    
+            var icon_a8914d2569ad881f376c58dc8b0514ef = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dcaff01af9536a4a879ba36b6eb0be86 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_374e621bced8b8051b4ad2ed8f187109 = $(`<div id="html_374e621bced8b8051b4ad2ed8f187109" style="width: 100.0%; height: 100.0%;"><b>Crockett - Upper Valona</b><br>PM2.5: 8.7 µg/m³</div>`)[0];
+                popup_dcaff01af9536a4a879ba36b6eb0be86.setContent(html_374e621bced8b8051b4ad2ed8f187109);
+            
+        
+
+        marker_4c5ea662cdb15e6d1446f1ec29ffdc17.bindPopup(popup_dcaff01af9536a4a879ba36b6eb0be86)
+        ;
+
+        
+    
+    
+                marker_4c5ea662cdb15e6d1446f1ec29ffdc17.setIcon(icon_a8914d2569ad881f376c58dc8b0514ef);
+            
+    
+            var marker_afe584f3519a4393a7dc7f023367528f = L.marker(
+                [38.07087, -122.21457],
+                {
+}
+            ).addTo(map_4f9ffc8b2587e74fc0e6cccab69bad30);
+        
+    
+            var icon_a236f07a87cb7bdf068cc4defb3be925 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0e70bbd8637c2741f04511283a0b2945 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b2bb8aa200ccb51b783debfd69331ca7 = $(`<div id="html_b2bb8aa200ccb51b783debfd69331ca7" style="width: 100.0%; height: 100.0%;"><b>Harbour Towne, Glen Cove</b><br>PM2.5: 2.1 µg/m³</div>`)[0];
+                popup_0e70bbd8637c2741f04511283a0b2945.setContent(html_b2bb8aa200ccb51b783debfd69331ca7);
+            
+        
+
+        marker_afe584f3519a4393a7dc7f023367528f.bindPopup(popup_0e70bbd8637c2741f04511283a0b2945)
+        ;
+
+        
+    
+    
+                marker_afe584f3519a4393a7dc7f023367528f.setIcon(icon_a236f07a87cb7bdf068cc4defb3be925);
+            
+    
+            var marker_a0dd2ec738b93e9b99a947c1124e9617 = L.marker(
+                [38.075485, -122.23302],
+                {
+}
+            ).addTo(map_4f9ffc8b2587e74fc0e6cccab69bad30);
+        
+    
+            var icon_9dfb6692817aeb899630e4a92a4a7fcf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_392309da606610644db6a8b0d92288d0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f972dc9a900066d5f980c314673a5812 = $(`<div id="html_f972dc9a900066d5f980c314673a5812" style="width: 100.0%; height: 100.0%;"><b>California State University Maritime Academy - PEAC</b><br>PM2.5: 2.3 µg/m³</div>`)[0];
+                popup_392309da606610644db6a8b0d92288d0.setContent(html_f972dc9a900066d5f980c314673a5812);
+            
+        
+
+        marker_a0dd2ec738b93e9b99a947c1124e9617.bindPopup(popup_392309da606610644db6a8b0d92288d0)
+        ;
+
+        
+    
+    
+                marker_a0dd2ec738b93e9b99a947c1124e9617.setIcon(icon_9dfb6692817aeb899630e4a92a4a7fcf);
+            
+    
+            var marker_282266a2d873586c980c980bde96b4b6 = L.marker(
+                [38.123577, -122.2097],
+                {
+}
+            ).addTo(map_4f9ffc8b2587e74fc0e6cccab69bad30);
+        
+    
+            var icon_caf80b25237688bd14ba463486038046 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_753bb4dd2de24a1b161a324421d2b169 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c55b602cfa91477d9e849d99b8319b68 = $(`<div id="html_c55b602cfa91477d9e849d99b8319b68" style="width: 100.0%; height: 100.0%;"><b>Back Yard</b><br>PM2.5: 2.7 µg/m³</div>`)[0];
+                popup_753bb4dd2de24a1b161a324421d2b169.setContent(html_c55b602cfa91477d9e849d99b8319b68);
+            
+        
+
+        marker_282266a2d873586c980c980bde96b4b6.bindPopup(popup_753bb4dd2de24a1b161a324421d2b169)
+        ;
+
+        
+    
+    
+                marker_282266a2d873586c980c980bde96b4b6.setIcon(icon_caf80b25237688bd14ba463486038046);
+            
+    
+            var marker_3033f483bf2ecc440b38583653fa2a28 = L.marker(
+                [38.117435, -122.223145],
+                {
+}
+            ).addTo(map_4f9ffc8b2587e74fc0e6cccab69bad30);
+        
+    
+            var icon_d1f460b0ce0fafc093aaa08db324951a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_334b72d8a877753e149a18e0cbc8b98a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ad88d36d9ad162a27f7f957b1133b8bb = $(`<div id="html_ad88d36d9ad162a27f7f957b1133b8bb" style="width: 100.0%; height: 100.0%;"><b>Vallejo</b><br>PM2.5: 2.2 µg/m³</div>`)[0];
+                popup_334b72d8a877753e149a18e0cbc8b98a.setContent(html_ad88d36d9ad162a27f7f957b1133b8bb);
+            
+        
+
+        marker_3033f483bf2ecc440b38583653fa2a28.bindPopup(popup_334b72d8a877753e149a18e0cbc8b98a)
+        ;
+
+        
+    
+    
+                marker_3033f483bf2ecc440b38583653fa2a28.setIcon(icon_d1f460b0ce0fafc093aaa08db324951a);
+            
+    
+            var marker_d795a012e13fcfdbc3c719675ac0f68c = L.marker(
+                [38.08845, -122.26866],
+                {
+}
+            ).addTo(map_4f9ffc8b2587e74fc0e6cccab69bad30);
+        
+    
+            var icon_a9f9bb0e2025d464e84cf91af2cec086 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e9a7da1721713bac39368227ac80a486 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_46b3ceb4c02e6aae49c7498a79712000 = $(`<div id="html_46b3ceb4c02e6aae49c7498a79712000" style="width: 100.0%; height: 100.0%;"><b>Flagship &amp; Nereus</b><br>PM2.5: 3.0 µg/m³</div>`)[0];
+                popup_e9a7da1721713bac39368227ac80a486.setContent(html_46b3ceb4c02e6aae49c7498a79712000);
+            
+        
+
+        marker_d795a012e13fcfdbc3c719675ac0f68c.bindPopup(popup_e9a7da1721713bac39368227ac80a486)
+        ;
+
+        
+    
+    
+                marker_d795a012e13fcfdbc3c719675ac0f68c.setIcon(icon_a9f9bb0e2025d464e84cf91af2cec086);
+            
+    
+            var marker_9fa90127ac066bb1ba428469add5daca = L.marker(
+                [38.096478, -122.27409],
+                {
+}
+            ).addTo(map_4f9ffc8b2587e74fc0e6cccab69bad30);
+        
+    
+            var icon_779a477700f78b3ff8d82fd103c3a763 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d2716bace198b270e69de5e4cbe4e204 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_284f7c1bc268a3933541401baee36f7a = $(`<div id="html_284f7c1bc268a3933541401baee36f7a" style="width: 100.0%; height: 100.0%;"><b>Vallejo People’s Garden</b><br>PM2.5: 1.7 µg/m³</div>`)[0];
+                popup_d2716bace198b270e69de5e4cbe4e204.setContent(html_284f7c1bc268a3933541401baee36f7a);
+            
+        
+
+        marker_9fa90127ac066bb1ba428469add5daca.bindPopup(popup_d2716bace198b270e69de5e4cbe4e204)
+        ;
+
+        
+    
+    
+                marker_9fa90127ac066bb1ba428469add5daca.setIcon(icon_779a477700f78b3ff8d82fd103c3a763);
+            
+    
+            var marker_6c93bdf5d764a1c743669db841f3a9ee = L.marker(
+                [38.132553, -122.249535],
+                {
+}
+            ).addTo(map_4f9ffc8b2587e74fc0e6cccab69bad30);
+        
+    
+            var icon_e251aa13ae4f9a590810a9f8952033c5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7ae599e391ac5c91a510330e6efffba6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1bab76516195ee1a76375e43cb1da79d = $(`<div id="html_1bab76516195ee1a76375e43cb1da79d" style="width: 100.0%; height: 100.0%;"><b>GRIFFIN TE CH VALLEJO</b><br>PM2.5: 2.1 µg/m³</div>`)[0];
+                popup_7ae599e391ac5c91a510330e6efffba6.setContent(html_1bab76516195ee1a76375e43cb1da79d);
+            
+        
+
+        marker_6c93bdf5d764a1c743669db841f3a9ee.bindPopup(popup_7ae599e391ac5c91a510330e6efffba6)
+        ;
+
+        
+    
+    
+                marker_6c93bdf5d764a1c743669db841f3a9ee.setIcon(icon_e251aa13ae4f9a590810a9f8952033c5);
+            
+    
+            var marker_b01340ae1929978cf546b3d218c70da1 = L.marker(
+                [38.09767, -122.23848],
+                {
+}
+            ).addTo(map_4f9ffc8b2587e74fc0e6cccab69bad30);
+        
+    
+            var icon_aaad6a1ed60606e322424d858c6e1ef9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d5592c9e8459b675b333115f62dcfb3d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_de0b64ba1c730759d982cf1fa4353b4e = $(`<div id="html_de0b64ba1c730759d982cf1fa4353b4e" style="width: 100.0%; height: 100.0%;"><b>Farrell Vallejo</b><br>PM2.5: 3.5 µg/m³</div>`)[0];
+                popup_d5592c9e8459b675b333115f62dcfb3d.setContent(html_de0b64ba1c730759d982cf1fa4353b4e);
+            
+        
+
+        marker_b01340ae1929978cf546b3d218c70da1.bindPopup(popup_d5592c9e8459b675b333115f62dcfb3d)
+        ;
+
+        
+    
+    
+                marker_b01340ae1929978cf546b3d218c70da1.setIcon(icon_aaad6a1ed60606e322424d858c6e1ef9);
+            
+    
+            var marker_8a510455c4e186a8430dd92e09f86740 = L.marker(
+                [38.07105, -122.23273],
+                {
+}
+            ).addTo(map_4f9ffc8b2587e74fc0e6cccab69bad30);
+        
+    
+            var icon_57f61207c2732e2e0276dbabaff93dc0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d24cb875785344e8fc7ec6c8efd88da6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b4928f97496199bc6c653216c0088140 = $(`<div id="html_b4928f97496199bc6c653216c0088140" style="width: 100.0%; height: 100.0%;"><b>Bodner Field</b><br>PM2.5: 2.0 µg/m³</div>`)[0];
+                popup_d24cb875785344e8fc7ec6c8efd88da6.setContent(html_b4928f97496199bc6c653216c0088140);
+            
+        
+
+        marker_8a510455c4e186a8430dd92e09f86740.bindPopup(popup_d24cb875785344e8fc7ec6c8efd88da6)
+        ;
+
+        
+    
+    
+                marker_8a510455c4e186a8430dd92e09f86740.setIcon(icon_57f61207c2732e2e0276dbabaff93dc0);
+            
+    
+            var marker_89befcde3d47dba05a70b1801e80553f = L.marker(
+                [38.135925, -122.25041],
+                {
+}
+            ).addTo(map_4f9ffc8b2587e74fc0e6cccab69bad30);
+        
+    
+            var icon_e2ed824126b1918fce13c1f228b93a4d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_86b30f2a15815bbf7d4620d1593cdaaf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_89a1572d985a97dae80956f7d799616c = $(`<div id="html_89a1572d985a97dae80956f7d799616c" style="width: 100.0%; height: 100.0%;"><b>Almond Vallejo</b><br>PM2.5: 2.8 µg/m³</div>`)[0];
+                popup_86b30f2a15815bbf7d4620d1593cdaaf.setContent(html_89a1572d985a97dae80956f7d799616c);
+            
+        
+
+        marker_89befcde3d47dba05a70b1801e80553f.bindPopup(popup_86b30f2a15815bbf7d4620d1593cdaaf)
+        ;
+
+        
+    
+    
+                marker_89befcde3d47dba05a70b1801e80553f.setIcon(icon_e2ed824126b1918fce13c1f228b93a4d);
+            
+    
+            var marker_bb4751298ebab0679a0fe2ef415cc718 = L.marker(
+                [38.135067, -122.24216],
+                {
+}
+            ).addTo(map_4f9ffc8b2587e74fc0e6cccab69bad30);
+        
+    
+            var icon_7120aa21a51591277df07aacc1314689 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_884eb2dfb607e6e2a7fe46fdc311eba9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f830f285998c3f4bfc123d3a198f27a = $(`<div id="html_6f830f285998c3f4bfc123d3a198f27a" style="width: 100.0%; height: 100.0%;"><b>Parkview Terrace vallejo</b><br>PM2.5: 2.4 µg/m³</div>`)[0];
+                popup_884eb2dfb607e6e2a7fe46fdc311eba9.setContent(html_6f830f285998c3f4bfc123d3a198f27a);
+            
+        
+
+        marker_bb4751298ebab0679a0fe2ef415cc718.bindPopup(popup_884eb2dfb607e6e2a7fe46fdc311eba9)
+        ;
+
+        
+    
+    
+                marker_bb4751298ebab0679a0fe2ef415cc718.setIcon(icon_7120aa21a51591277df07aacc1314689);
+            
+    
+            var marker_9bc1a2e97d1b465f01bb41a46089658b = L.marker(
+                [38.11803, -122.229805],
+                {
+}
+            ).addTo(map_4f9ffc8b2587e74fc0e6cccab69bad30);
+        
+    
+            var icon_ea680cc5c2fb38cc5c558567ca9da10c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1893a46cf1c3cc73f7f687306a60ed09 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_63e7ac1ff5ac0f22825707cfdfdc79aa = $(`<div id="html_63e7ac1ff5ac0f22825707cfdfdc79aa" style="width: 100.0%; height: 100.0%;"><b>Windmill, Vallejo -out</b><br>PM2.5: 0.0 µg/m³</div>`)[0];
+                popup_1893a46cf1c3cc73f7f687306a60ed09.setContent(html_63e7ac1ff5ac0f22825707cfdfdc79aa);
+            
+        
+
+        marker_9bc1a2e97d1b465f01bb41a46089658b.bindPopup(popup_1893a46cf1c3cc73f7f687306a60ed09)
+        ;
+
+        
+    
+    
+                marker_9bc1a2e97d1b465f01bb41a46089658b.setIcon(icon_ea680cc5c2fb38cc5c558567ca9da10c);
+            
+    
+            var marker_cca8afbc5da4f7f23338455043e59a76 = L.marker(
+                [38.108265, -122.242744],
+                {
+}
+            ).addTo(map_4f9ffc8b2587e74fc0e6cccab69bad30);
+        
+    
+            var icon_62e8db422365ef64e84bf50bf3ae40ac = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_04c05f0c73303ce7a66bad02ea00ca3e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e85f04583f3b5558a78c46c7971ce2f1 = $(`<div id="html_e85f04583f3b5558a78c46c7971ce2f1" style="width: 100.0%; height: 100.0%;"><b>Morningside Addition</b><br>PM2.5: 0.0 µg/m³</div>`)[0];
+                popup_04c05f0c73303ce7a66bad02ea00ca3e.setContent(html_e85f04583f3b5558a78c46c7971ce2f1);
+            
+        
+
+        marker_cca8afbc5da4f7f23338455043e59a76.bindPopup(popup_04c05f0c73303ce7a66bad02ea00ca3e)
+        ;
+
+        
+    
+    
+                marker_cca8afbc5da4f7f23338455043e59a76.setIcon(icon_62e8db422365ef64e84bf50bf3ae40ac);
+            
+    
+            var marker_bae8e1248d4571b33f8827fd0005daf3 = L.marker(
+                [38.13848, -122.23362],
+                {
+}
+            ).addTo(map_4f9ffc8b2587e74fc0e6cccab69bad30);
+        
+    
+            var icon_f9a43add679c152a1bb7e7f5ee5c0887 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_174618d497cac0954ccd1b5971ab46b6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bdde1d1eabf828bdd4ddb44a0f549206 = $(`<div id="html_bdde1d1eabf828bdd4ddb44a0f549206" style="width: 100.0%; height: 100.0%;"><b>Kingdom Stage</b><br>PM2.5: 2.8 µg/m³</div>`)[0];
+                popup_174618d497cac0954ccd1b5971ab46b6.setContent(html_bdde1d1eabf828bdd4ddb44a0f549206);
+            
+        
+
+        marker_bae8e1248d4571b33f8827fd0005daf3.bindPopup(popup_174618d497cac0954ccd1b5971ab46b6)
+        ;
+
+        
+    
+    
+                marker_bae8e1248d4571b33f8827fd0005daf3.setIcon(icon_f9a43add679c152a1bb7e7f5ee5c0887);
+            
+    
+            var marker_e005b02518aef240845df663381a75c2 = L.marker(
+                [38.13908, -122.23563],
+                {
+}
+            ).addTo(map_4f9ffc8b2587e74fc0e6cccab69bad30);
+        
+    
+            var icon_e400222f52bc2f99649733f5d3ed6d0e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f0b5cea0bc2950a36da7e9f6409bb8f5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d21f7dfef4bf7f4d5d8759619bfebdb0 = $(`<div id="html_d21f7dfef4bf7f4d5d8759619bfebdb0" style="width: 100.0%; height: 100.0%;"><b>Discovery Kingdom - Hilltop</b><br>PM2.5: 0.0 µg/m³</div>`)[0];
+                popup_f0b5cea0bc2950a36da7e9f6409bb8f5.setContent(html_d21f7dfef4bf7f4d5d8759619bfebdb0);
+            
+        
+
+        marker_e005b02518aef240845df663381a75c2.bindPopup(popup_f0b5cea0bc2950a36da7e9f6409bb8f5)
+        ;
+
+        
+    
+    
+                marker_e005b02518aef240845df663381a75c2.setIcon(icon_e400222f52bc2f99649733f5d3ed6d0e);
+            
+</script>
+</html>
